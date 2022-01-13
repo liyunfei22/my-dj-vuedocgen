@@ -1,0 +1,23 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: inint",
+      "code": "ENOENT",
+      "stack": "Error: not found: inint\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41182:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41259:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42824:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42833:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:178717:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/Users/liyf/learn/docgen",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: inint",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: inint\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41182:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41259:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42824:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:42833:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:178717:39"
+    }
+  }
+}
