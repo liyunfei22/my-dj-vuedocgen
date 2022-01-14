@@ -3,7 +3,12 @@ import glob from 'globby'
 import chokidar, { FSWatcher } from 'chokidar'
 import { parse, ParamTag, ScriptHandlers, DocGenOptions } from 'vue-docgen-api'
 import { getDocMap } from './utils'
-
+	// const { watcher, componentFiles, docMap } = await getSources(
+	// 	config.components,
+	// 	config.componentsRoot,
+	// 	config.getDocFileName,
+	// 	config.apiOptions
+	// )
 /**
  *
  * @param components glob or globs to watch
